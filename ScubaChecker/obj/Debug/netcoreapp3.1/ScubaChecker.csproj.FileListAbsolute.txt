@@ -11,3 +11,6 @@ C:\Users\thelittlecitizen16\source\repos\ScubaChecker\ScubaChecker\obj\Debug\net
 C:\Users\thelittlecitizen16\source\repos\ScubaChecker\ScubaChecker\obj\Debug\netcoreapp3.1\ScubaChecker.dll
 C:\Users\thelittlecitizen16\source\repos\ScubaChecker\ScubaChecker\obj\Debug\netcoreapp3.1\ScubaChecker.pdb
 C:\Users\thelittlecitizen16\source\repos\ScubaChecker\ScubaChecker\obj\Debug\netcoreapp3.1\ScubaChecker.genruntimeconfig.cache
+C:\Users\thelittlecitizen16\source\repos\ScubaChecker\ScubaChecker\bin\Debug\netcoreapp3.1\TestsXML.xml
+C:\Users\thelittlecitizen16\source\repos\ScubaChecker\ScubaChecker\bin\Debug\netcoreapp3.1\MamasChecker.Abstract.dll
+C:\Users\thelittlecitizen16\source\repos\ScubaChecker\ScubaChecker\obj\Debug\netcoreapp3.1\ScubaChecker.csproj.CopyComplete

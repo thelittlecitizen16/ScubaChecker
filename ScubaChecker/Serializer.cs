@@ -11,11 +11,16 @@ namespace ScubaChecker
     {
         Stream ISerializer<T>.Serialize(T[] testsToSerialize)
         {
-            XmlSerializer writer = new XmlSerializer(testsToSerialize.GetType());
-            StreamWriter fileWrite = new StreamWriter(@"C:\Users\thelittlecitizen16\source\repos\ScubaChecker\ScubaChecker\TestsXML.xml");
-            writer.Serialize(fileWrite, testsToSerialize);
+            string path = @"C:\Users\thelittlecitizen16\source\repos\ScubaChecker\ScubaChecker\TestsXML.xml";
 
-            return fileWrite.BaseStream;
+            XmlSerializer writer = new XmlSerializer(testsToSerialize.GetType());
+            StreamWriter fileWrite = new StreamWriter(path);
+            writer.Serialize(fileWrite, testsToSerialize);
+            fileWrite.Close();
+
+            FileStream fileStream = File.OpenRead(path);
+
+            return fileStream;
         }
     }
 }
